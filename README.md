@@ -4,72 +4,82 @@ Este projeto foi desenvolvido como parte do **Challenge ONE**, uma parceria entr
 
 > 🧠 **Ajudar o gestor *Sr. João* a tomar uma decisão estratégica baseada em dados.**
 
+---
 
-🎯 Objetivo
-Analisar os dados de 4 filiais da rede Alura Store para identificar qual unidade possui o pior desempenho e recomendar qual loja deve ser vendida, otimizando assim os investimentos da empresa.
+## 🎯 **Objetivo**
 
-| Ferramenta        | Ícone | Descrição                                                |
-| ----------------- | ----- | -------------------------------------------------------- |
-| **Python**        | 🐍    | Linguagem principal para manipulação e análise de dados. |
-| **Pandas**        | 🐼    | Limpeza, tratamento e agregação dos dados.               |
-| **Matplotlib**    | 📈    | Criação de gráficos estáticos e análises visuais.        |
-| **Seaborn**       | ✨     | Visualizações estatísticas com maior apelo visual.       |
-| **Jupyter/Colab** | 💻    | Ambiente interativo para desenvolvimento e apresentação. |
+Analisar os dados de **4 filiais** da rede **Alura Store** para identificar **qual unidade possui o pior desempenho** e recomendar **qual loja deve ser vendida**, otimizando assim os investimentos da empresa.
 
-⚙️ Etapas da Análise
-🔌 Carga e Limpeza de Dados
+---
 
-Leitura dos arquivos .csv
+## 🛠️ **Ferramentas Utilizadas**
 
-Padronização dos nomes de colunas
+| Ferramenta        | Ícone | Descrição                                                     |
+|-------------------|-------|---------------------------------------------------------------|
+| **Python**        | 🐍    | Linguagem principal para manipulação e análise de dados.       |
+| **Pandas**        | 🐼    | Limpeza, tratamento e agregação dos dados.                    |
+| **Matplotlib**    | 📈    | Criação de gráficos estáticos e análises visuais.             |
+| **Seaborn**       | ✨    | Visualizações estatísticas com maior apelo visual.            |
+| **Jupyter/Colab** | 💻    | Ambiente interativo para desenvolvimento e apresentação.       |
 
-Tratamento de dados ausentes e inconsistências
+---
 
-🧮 Cálculo de KPIs
+## ⚙️ **Etapas da Análise**
 
-Faturamento total por loja
+1. **🔌 Carga e Limpeza de Dados**  
+   - Leitura dos arquivos `.csv`  
+   - Padronização dos nomes de colunas  
+   - Tratamento de dados ausentes e inconsistências  
 
-Avaliação média dos clientes
+2. **🧮 Cálculo de KPIs**  
+   - Faturamento total por loja  
+   - Avaliação média dos clientes  
+   - Custo médio do frete  
 
-Custo médio do frete
+3. **📊 Visualização dos Resultados**  
+   - Criação de **3 gráficos comparativos** para facilitar a análise visual dos KPIs entre as filiais
 
-📊 Visualização dos Resultados
+4. **📝 Elaboração do Relatório**  
+   - Interpretação dos resultados  
+   - Geração de insights  
+   - Recomendação estratégica para o gestor  
 
-Criação de 3 gráficos comparativos para facilitar a análise visual dos KPIs entre as filiais
+---
 
-📝 Elaboração do Relatório
+## ✅ **Conclusão**
 
-Interpretação dos resultados
-
-Geração de insights
-
-Recomendação estratégica para o gestor
-
-✅ Conclusão
 Após análise detalhada, a recomendação final é:
 
-🔻 Venda da Loja 4
+> 🔻 **Venda da Loja 4**
 
-📉 Apesar de não ser a de menor faturamento, a Loja 4 combina:
+📉 Apesar de **não ser a de menor faturamento**, a **Loja 4** combina:
 
-Maior custo médio de frete
+- **Maior custo médio de frete**
+- **Pior avaliação dos clientes**
 
-Pior avaliação dos clientes
+Esses fatores representam **maior risco operacional e de reputação**, justificando a recomendação de venda para proteger a saúde financeira da Alura Store a longo prazo.
+
+---
+
+## 📂 **Estrutura do Projeto**
 
 📁 alura-store-analise/
 ├── 📊 analise_dados_alura_store.ipynb
 ├── 📄 dados/
-│   ├── loja1.csv
-│   ├── loja2.csv
-│   ├── loja3.csv
-│   └── loja4.csv
+│ ├── loja1.csv
+│ ├── loja2.csv
+│ ├── loja3.csv
+│ └── loja4.csv
 ├── 📈 graficos/
-│   ├── comparativo_faturamento.png
-│   ├── avaliacao_media.png
-│   └── custo_frete.png
+│ ├── comparativo_faturamento.png
+│ ├── avaliacao_media.png
+│ └── custo_frete.png
 └── 📃 README.md
 
 
-🙌 Agradecimentos
-Projeto desenvolvido no âmbito do Challenge ONE – Oracle + Alura.
+---
+
+## 🙌 **Agradecimentos**
+
+Projeto desenvolvido no âmbito do **Challenge ONE – Oracle + Alura**.  
 Agradecimentos à equipe da Alura pelo conteúdo didático e ao programa ONE pela oportunidade de desenvolvimento profissional.
