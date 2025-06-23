@@ -77,9 +77,6 @@ Esses fatores representam **maior risco operacional e de reputação**, justific
 │   └── custo_frete.png
 └── 📃 README.md
 
----
-
-## 🙌 **Agradecimentos**
-
-Projeto desenvolvido no âmbito do **Challenge ONE – Oracle + Alura**.  
-Agradecimentos à equipe da Alura pelo conteúdo didático e ao programa ONE pela oportunidade de desenvolvimento profissional.
+🙌 Agradecimentos
+Projeto desenvolvido no âmbito do Challenge ONE – Oracle + Alura.
+Agradeço à equipe da Alura pelo conteúdo didático e ao programa Oracle Next Education (ONE) pela oportunidade de desenvolvimento profissional e técnico.
