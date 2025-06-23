@@ -1,7 +1,9 @@
-📊 Challenge ONE - Análise de Dados: Alura Store
-Este projeto foi desenvolvido como parte do Challenge ONE, uma parceria entre a Alura e a Oracle, com um objetivo de negócio claro:
+# 📊 **Challenge ONE - Análise de Dados: Alura Store**
 
-🧠 Ajudar o gestor Sr. João a tomar uma decisão estratégica baseada em dados.
+Este projeto foi desenvolvido como parte do **Challenge ONE**, uma parceria entre a **Alura** e a **Oracle**, com um objetivo de negócio claro:
+
+> 🧠 **Ajudar o gestor *Sr. João* a tomar uma decisão estratégica baseada em dados.**
+
 
 🎯 Objetivo
 Analisar os dados de 4 filiais da rede Alura Store para identificar qual unidade possui o pior desempenho e recomendar qual loja deve ser vendida, otimizando assim os investimentos da empresa.
