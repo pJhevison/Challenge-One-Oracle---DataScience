@@ -56,7 +56,6 @@ Maior custo médio de frete
 
 Pior avaliação dos clientes
 
-Esses fatores representam maior risco operacional e de reputação, justificando a recomendação de venda para proteger a saúde financeira da Alura Store a longo prazo.
 📁 alura-store-analise/
 ├── 📊 analise_dados_alura_store.ipynb
 ├── 📄 dados/
@@ -69,6 +68,7 @@ Esses fatores representam maior risco operacional e de reputação, justificando
 │   ├── avaliacao_media.png
 │   └── custo_frete.png
 └── 📃 README.md
+
 
 🙌 Agradecimentos
 Projeto desenvolvido no âmbito do Challenge ONE – Oracle + Alura.
