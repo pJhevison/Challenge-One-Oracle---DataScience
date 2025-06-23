@@ -77,8 +77,6 @@ Esses fatores representam **maior risco operacional e de reputação**, justific
 │   └── custo_frete.png
 └── 📃 README.md
 
-
-
 ---
 
 ## 🙌 **Agradecimentos**
