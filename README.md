@@ -63,18 +63,20 @@ Esses fatores representam **maior risco operacional e de reputação**, justific
 
 ## 📂 **Estrutura do Projeto**
 
+```text
 📁 alura-store-analise/
 ├── 📊 analise_dados_alura_store.ipynb
 ├── 📄 dados/
-│ ├── loja1.csv
-│ ├── loja2.csv
-│ ├── loja3.csv
-│ └── loja4.csv
+│   ├── loja1.csv
+│   ├── loja2.csv
+│   ├── loja3.csv
+│   └── loja4.csv
 ├── 📈 graficos/
-│ ├── comparativo_faturamento.png
-│ ├── avaliacao_media.png
-│ └── custo_frete.png
+│   ├── comparativo_faturamento.png
+│   ├── avaliacao_media.png
+│   └── custo_frete.png
 └── 📃 README.md
+
 
 
 ---
