@@ -1,60 +1,73 @@
-CHALLENGE ONE - ANÁLISE DE DADOS ALURA STORE 📊
-🎯 Objetivo do Projeto
-Este projeto foi desenvolvido como parte do Challenge ONE, uma parceria entre a Alura e a Oracle, com um objetivo de negócio claro: ajudar o gestor "Sr. João" a tomar uma decisão estratégica.
+📊 Challenge ONE - Análise de Dados: Alura Store
+Este projeto foi desenvolvido como parte do Challenge ONE, uma parceria entre a Alura e a Oracle, com um objetivo de negócio claro:
 
-O desafio consiste em analisar os dados de 4 filiais da rede Alura Store para identificar qual delas possui o desempenho mais fraco e, com base nisso, recomendar qual unidade deve ser vendida para otimizar os investimentos da empresa.
+🧠 Ajudar o gestor Sr. João a tomar uma decisão estratégica baseada em dados.
 
-🛠️ Ferramentas Utilizadas
-O projeto foi desenvolvido inteiramente em Python, utilizando as seguintes bibliotecas:
+🎯 Objetivo
+Analisar os dados de 4 filiais da rede Alura Store para identificar qual unidade possui o pior desempenho e recomendar qual loja deve ser vendida, otimizando assim os investimentos da empresa.
 
-Ferramenta
-
-Ícone
-
-Descrição
-
-Python
-
-🐍
-
-Linguagem principal para a análise.
-
-Pandas
-
-🐼
-
-Utilizado para a limpeza, manipulação e agregação dos dados.
-
-Matplotlib
-
-📈
-
-Essencial para a criação de gráficos estáticos e visualizações.
-
-Seaborn
-
-✨
-
-Usado para criar gráficos estatísticos mais atraentes e informativos.
-
-Jupyter/Colab
-
-notebooks
-
-Ambiente de desenvolvimento para a análise interativa.
+| Ferramenta        | Ícone | Descrição                                                |
+| ----------------- | ----- | -------------------------------------------------------- |
+| **Python**        | 🐍    | Linguagem principal para manipulação e análise de dados. |
+| **Pandas**        | 🐼    | Limpeza, tratamento e agregação dos dados.               |
+| **Matplotlib**    | 📈    | Criação de gráficos estáticos e análises visuais.        |
+| **Seaborn**       | ✨     | Visualizações estatísticas com maior apelo visual.       |
+| **Jupyter/Colab** | 💻    | Ambiente interativo para desenvolvimento e apresentação. |
 
 ⚙️ Etapas da Análise
-O projeto foi estruturado nas seguintes etapas para garantir uma análise completa e uma conclusão bem fundamentada:
+🔌 Carga e Limpeza de Dados
 
-🔌 Carga e Limpeza de Dados: Conexão com os arquivos CSV, padronização de colunas e tratamento de inconsistências nos dados.
+Leitura dos arquivos .csv
 
-🧮 Cálculo de KPIs: Definição e cálculo dos principais indicadores de desempenho (KPIs) para cada loja, como Faturamento, Avaliação Média e Custo do Frete.
+Padronização dos nomes de colunas
 
-📊 Visualização dos Resultados: Criação de 3 gráficos distintos para comparar o desempenho das lojas de forma visual e intuitiva.
+Tratamento de dados ausentes e inconsistências
 
-📝 Elaboração do Relatório: Síntese de todos os insights em um relatório gerencial, culminando em uma recomendação estratégica clara e baseada em dados.
+🧮 Cálculo de KPIs
+
+Faturamento total por loja
+
+Avaliação média dos clientes
+
+Custo médio do frete
+
+📊 Visualização dos Resultados
+
+Criação de 3 gráficos comparativos para facilitar a análise visual dos KPIs entre as filiais
+
+📝 Elaboração do Relatório
+
+Interpretação dos resultados
+
+Geração de insights
+
+Recomendação estratégica para o gestor
 
 ✅ Conclusão
-Após uma análise detalhada de todos os indicadores, o relatório final recomenda a venda da Loja 4.
+Após análise detalhada, a recomendação final é:
 
-Embora não seja a loja de menor faturamento, ela apresenta a combinação mais arriscada de alto custo operacional (maior frete médio) e a pior avaliação por parte dos clientes, representando o maior risco para a saúde financeira e reputação da marca a longo prazo.
+🔻 Venda da Loja 4
+
+📉 Apesar de não ser a de menor faturamento, a Loja 4 combina:
+
+Maior custo médio de frete
+
+Pior avaliação dos clientes
+
+Esses fatores representam maior risco operacional e de reputação, justificando a recomendação de venda para proteger a saúde financeira da Alura Store a longo prazo.
+📁 alura-store-analise/
+├── 📊 analise_dados_alura_store.ipynb
+├── 📄 dados/
+│   ├── loja1.csv
+│   ├── loja2.csv
+│   ├── loja3.csv
+│   └── loja4.csv
+├── 📈 graficos/
+│   ├── comparativo_faturamento.png
+│   ├── avaliacao_media.png
+│   └── custo_frete.png
+└── 📃 README.md
+
+🙌 Agradecimentos
+Projeto desenvolvido no âmbito do Challenge ONE – Oracle + Alura.
+Agradecimentos à equipe da Alura pelo conteúdo didático e ao programa ONE pela oportunidade de desenvolvimento profissional.
